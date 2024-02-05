@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en"
+ element.style {
+        overflow-y: scroll;
+        overscroll-behavior-y: none;
+        font-size: 15px;
+        color-scheme: light
+ }
+></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter</title>
+ <style>
+    .resized-image {
+        width: 16px;
+        height: 16px;
+        padding: auto;
+        justify-content: space-around;
+    }
+    .gg {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    .gg:hover {
+      text-decoration: underline;
+    }
+    .reg {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9px;
+      text-align: center;
+    }
+    .hg {
+      text-align: center;
+      font-size: 15px;
+      color: black;
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+ body {
+     background-color: white;
+      font-family: Arial, sans-serif;
+      align-items: stretch;
+      display: flex;
+      flex-basis: auto;
+      position: static;
+      text-decoration: none;
+      z-index: 0;
+      flex-wrap: wrap;
+      text-align:justify;
+      text-justify: unset;
+ .section { flex: 1; height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+
+    img { max-width: 100%; max-height: 100%; }
+
+    #section2 {
+      text-align: center;
+      padding: 20px;
+      align-items: flex-start;
+      font-weight: 700;
+    }
+    .button1 {
+      margin-bottom: 8px;
+      margin-top: 4px;
+      background-color: white;
+      border-color: rgb(207, 217, 222);
+     background-color: rgb(255, 255, 255);
+      box-sizing: border-box;
+      margin: -2px -10px;
+      color: rgba(0, 0, 0, 0.857);
+      padding-right: 16px;
+      border: round;
+      padding-top: 7px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 59px;
+      min-height: 36px;
+      min-width: 36px;
+      max-width: 380px;
+      width: 300px;
+      padding-left: 16px;
+      border-bottom-style: solid;
+     border-left-style: solid;
+     border-right-style: solid;
+     border-top-style: solid;
+     border-bottom-width: 1px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-top-width: 1px;
+     border-bottom-left-radius: 9999px;
+     border-bottom-right-radius: 9999px;
+     border-top-left-radius: 9999px;
+     border-top-right-radius: 9999px;
+     height: 40px;
+     font-size: 15px;
+    }
+    .button1:hover{
+      background-color: rgba(0, 151, 255, 0.09);
+    }
+    .button2{
+      margin-bottom: 0px;
+      font-size: 15px;
+      margin: -2px -10px;
+      color: black;
+      padding-right: 16px;
+      padding-top: 7px;
+      border: round;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 59;
+      min-height: 36px;
+      min-width: 36px;
+      max-width: 380px;
+      width: 300px;
+      padding-left: 16px;
+      border-bottom-style: solid;
+     border-left-style: solid;
+     border-right-style: solid;
+     border-top-style: solid;
+     border-bottom-width: 1px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-top-width: 1px;
+     border-bottom-left-radius: 9999px;
+     border-bottom-right-radius: 9999px;
+     border-top-left-radius: 9999px;
+     border-top-right-radius: 9999px;
+     height: 40px;
+     display: inline-block;
+     font-weight: 700;
+     box-sizing: border-box;
+     border-color: rgb(207, 217, 222);
+    background-color: rgb(255, 255, 255);
+    }
+    .button2:hover{
+      background-color: lightgray;
+    }
+    .button3{
+     color: whitesmoke;
+      font-size: 15px;
+      margin-bottom: 8px;
+    box-sizing: border-box;
+     background-color: #1d9bf0;
+      padding-right: 16px;
+      border: round;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 59;
+      min-height: 36px;
+      padding-top: 7px;
+      min-width: 36px;
+     max-width : 380px;
+     width : 300px;
+     padding-left: 16px;
+     border-bottom-style: solid;
+     border-left-style: solid;
+     border-right-style: solid;
+     border-top-style: solid;
+     border-bottom-width: 1px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-top-width: 1px;
+     border-bottom-left-radius: 9999px;
+     border-bottom-right-radius: 9999px;
+     border-top-left-radius: 9999px;
+     border-top-right-radius: 9999px;
+     height: 40px;
+     font-weight: 700;
+    }
+    .button3:hover {
+      background-color:#1d9bf0;
+    }
+    .button4 {
+        background-color: white;
+      color: black;
+      padding: 0px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      text-align: center;
+      padding-left: 16px;
+     padding-right: 16px;
+    }
+    .button4:hover {
+      text-decoration: underline;
+      text-align: right;
+    }
+    .button5 {
+      font-size: 15px;
+      margin-bottom: 8px;
+     background-color: white;
+     box-sizing: border-box;
+     border-color: #f0f8ff;
+     color: rgb(29, 155, 240);
+      padding-right: 16px;
+      padding-top: 7px;
+      border: none;
+      cursor: pointer;
+      border-radius: 59;
+      min-height: 36px;
+      min-width: 36px;
+      max-width: 380px;
+      width: 300px;
+      padding-left: 16px;
+      border-bottom-style: solid;
+     border-left-style: solid;
+     border-right-style: solid;
+     border-top-style: solid;
+     border-bottom-width: 1px;
+     border-left-width: 1px;
+     border-right-width: 1px;
+     border-top-width: 1px;
+     border-bottom-left-radius: 9999px;
+     border-bottom-right-radius: 9999px;
+     border-top-left-radius: 9999px;
+     border-top-right-radius: 9999px;
+     height: 40px;
+    }
+    .button5:hover {
+      background-color: rgba(73, 255, 255, 0.09);
+    }
+
+ }
+footer {
+     color: black;
+      text-align: center;
+      padding: 08px;
+      position: hovering;
+      bottom: 0;
+      width: 100%;
+      margin-bottom: 4px;
+      margin-top: 40px;
+    }
+ h1{
+      color: black;
+      text-align: center;
+      font-size: 64px;
+      font-weight: 700;
+     line-height: 84px;
+     font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+     max-width: 380px;
+     margin-bottom: 48px;
+     margin-top: 48px;
+     letter-spacing: -1.2px;
+     white-space: nowrap;
+    }
+ p {
+      font-family: verdana;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 700;
+      max-width: 380px;
+    }
+  h2 {
+      color: black;
+      text-align: center;
+      font-size: 31px;
+      margin-bottom: 32px;
+      line-height: 36px;
+      font-family: "TwitterChirpExtendedHeavy","Verdana",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      max-width: 380px;
+}
+ h3 {
+      color: black;
+      text-align: center;
+      font-weight: 700;
+      max-width: 380px;
+    }
+
+  </style>
+</head>
+<body>
+  <title> twitter</title>
+  <div class="section" id="section1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png">
+  </div>
+  <div class="section" id="section2">
+    <h1> Happening now</h1>
+    <h2>Join today.</h2>
+    <div role="button" class="button1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1920px-Google_%22G%22_logo.svg.png" class="resized-image"> Sign up with Google
+      </div>
+      <div class="groupone" style="margin-top: 10px;">
+   <div role="button" class="button2">  Sign up with Apple</div></div>
+    <p class="hg">or</p>
+   <div role="button" class="button3">Create Account</div>
+    <p class="reg"> By signing up, you agree to the <a href= https://twitter.com/en/tos class="gg" target="_blank">Terms of service</a> and <a href="https://twitter.com/en/privacy" target="_blank" class="gg">Privacy Policy</a>, including <a href= https://twitter.com/en/tos class="gg" target="_blank">Cookie Use.</a>
+    </p>
+    <h3>Already have an account?</h3>
+    <div role="button" class="button5">Sign in</div>
+  </div>
+   <footer>
+      <button class="button4">About</button>
+      <button class="button4">Download the X app</button>
+      <button class="button4">Help Center</button>
+      <button class="button4">Privacy Policy</button>
+      <button class="button4">Cookie Policy</button>
+      <button class="button4">Accessibility</button>
+      <button class="button4">Ads info</button>
+      <button class="button4">Blog </button>
+      <button class="button4">Status</button>
+      <button class="button4">Careers</button>
+      <button class="button4">Brand Resources</button>
+      <button class="button4">Advertising</button>
+      <button class="button4">Marketing </button>
+      <button class="button4">X for Business</button>
+      <button class="button4">Developers</button>
+      <button class="button4">Directory</button>
+      <button class="button4">Settings</button>
+      © 2024 X Corp.
+    </footer>
+
+</body>
+</html>
